@@ -9,6 +9,7 @@ public class Contador {
         int parametroUm = scanner.nextInt();
         System.out.println("Digite o segundo parâmetro:");
         int parametroDois = scanner.nextInt();
+        scanner.close();
         try {
             // chamando o método que contém a lógica de contagem (controle de fluxo)
             contar(parametroUm, parametroDois);
